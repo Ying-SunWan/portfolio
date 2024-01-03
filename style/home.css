@@ -1,7 +1,7 @@
 .home {
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .home h1 {
@@ -9,6 +9,22 @@
     display: inline-block;
     margin: 0;
     padding: 0;
+}
+
+@keyframes arrowAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.home i {
+    position: absolute;
+    font-size: 30px;
+    bottom: 20px;
+    animation: arrowAnimation 5s infinite;
 }
 
 #happyBunny {
