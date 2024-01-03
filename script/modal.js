@@ -26,26 +26,28 @@ labBtn.onclick = function() {
 
 gameBtn = document.getElementById("jsGame")
 gameModal = document.getElementById("jsGameModal")
+closeGame = document.getElementById("gameClose");
 addListener(gameBtn, gameModal)
 
 inventoryAppBtn = document.getElementById("inventoryApp")
 inventoryAppModal = document.getElementById("inventoryAppModal")
+closeInventoryApp = document.getElementById("inventoryAppClose");
 addListener(inventoryAppBtn, inventoryAppModal)
 
 expenseAppBtn = document.getElementById("expenseApp")
 expenseAppModal = document.getElementById("expenseAppModal")
+closeExpenseApp = document.getElementById("expenseAppClose");
 addListener(expenseAppBtn, expenseAppModal)
 
 window.onclick = function(event) {
-    if (event.target == inventoryAppModal) {
+    console.log(event.target== closeGame)
+    if (event.target == inventoryAppModal || event.target == closeInventoryApp) {
         inventoryAppModal.style.display = "none";
     }
-    else if (event.target == expenseAppModal) {
+    else if (event.target == expenseAppModal || event.target == closeExpenseApp) {
         expenseAppModal.style.display = "none";
     }
-    else if (event.target == gameModal) {
+    else if (event.target == gameModal || event.target == closeGame) {
         gameModal.style.display = "none";
     }
 }
-
-

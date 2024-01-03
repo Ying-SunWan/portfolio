@@ -20,14 +20,14 @@
 }
   
 .close {
-    color: #aaa;
+    color: var(--color-dark);
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
   
 .close:hover, .close:focus {
-    color: black;
+    color: var(--color-primary);
     text-decoration: none;
     cursor: pointer;
 }
