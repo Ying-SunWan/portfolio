@@ -12,7 +12,6 @@
 .nav-list {
     flex-direction: column;
     display: block;
-    column-gap: 3rem;
     float: inline-start;
     margin-left: 1rem;
     position: absolute;
