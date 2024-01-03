@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Line Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/navigation.css">
+    <link rel="stylesheet" href="style/socials.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/experience.css">
+    <link rel="stylesheet" href="style/portfolio.css">
+    <link rel="stylesheet" href="style/projectModal.css">
+    <link rel="stylesheet" href="style/deviceCompat.css">
+
+    <title>Ying Wan Portfolio</title>
+</head>
+
+<body>
+    <!-- SIDE NAV -->
+    <header class="nav" id="nav">
+        <ul class="nav-list" id="nav-list">
+            <li class="nav-item">
+                <a href="#home" class="nav-link active-link"><i class="icon-home"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link"><i class="icon-user"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#experience" class="nav-link"><i class="icon-briefcase"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#portfolio" class="nav-link"><i class="icon-layers"></i></a>
+            </li>
+        </ul>  
+
+        <ul class="nav-list social-list" id="socials">
+            <li class="nav-item">
+                <a href="mailto:ywan4@ualberta.ca" class="nav-link" target="_blank"><i class="icon-envelope"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="//www.linkedin.com/in/ying-sunwan/" class="nav-link" target="_blank"><i class="icon-social-linkedin"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="//github.com/Ying-SunWan" class="nav-link" target="_blank"><i class="icon-social-github"></i></a>
+            </li>
+        </ul>
+    </header>
+    <main class="main-content">
+
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="container">
+                <div class="bunnySprite" id="happyBunny"></div>
+                <h1>Ying Wan &emsp; &emsp;</h1>
+                <p>4th Year SWE at the UofA</p>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                
+                <!-- <div class="bunnySprite" id="neutralBunny"></div> -->
+                <div class="row">
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <img class="about-img" src="assets/img/headshot.png">
+                            <div class="about-text padd-15">
+                                <p>I'm Ying, a fourth year software engineering student at the University of Alberta. I have dabbled in robotics, data analytics, and android, front end, and GUI development. I'm also passionate about involvement in the student community and have held multiple club positions in the past. Approaching another 8 month workterm (May 2024 - Dec 2024), I am very excited about what my next adventure will be!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-content padd-15">
+                        <div class="rounded" style="margin-bottom: 15px;">
+                            <div class="col">
+                                <h3 class="skill-header padd-15">Languages</h3>
+                                <ul class="padd-15">
+                                    <li class="skill-item" id="Python">Python</li>
+                                    <li class="skill-item">Java</li>
+                                    <li class="skill-item">HTML/CSS</li>
+                                    <li class="skill-item">Javascript</li>
+                                    <li class="skill-item">C++</li>
+                                    <li class="skill-item">SQL</li>
+                                    <li class="skill-item">MATLAB</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <h3 class="skill-header padd-15">Tools</h3>
+                                <ul class="padd-15">
+                                    <li class="skill-item">Android Studios</li>
+                                    <li class="skill-item">GitHub</li>
+                                    <li class="skill-item">Visual Studios</li>
+                                    <li class="skill-item">VirtualBox/VMware</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="assets/file/YingWan_Resume.pdf" download="YingWan_Resume.pdf" class="btn btn-default" id="download-btn">Download Resume</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="fact-item padd-15">
+                        <i class="icon-briefcase"></i>
+                        <div class="details">
+                            <h3>16 Months</h3>
+                            <p>Co-op Experience</p>
+                        </div>
+                    </div>
+                    <div class="fact-item padd-15">
+                        <i class="icon-chemistry"></i>
+                        <div class="details">
+                            <h3>20 Months</h3>
+                            <p>Research Experience</p>
+                        </div>
+                    </div>
+                    <div class="fact-item padd-15">
+                        <i class="icon-people"></i>
+                        <div class="details">
+                            <h3>8 Positions</h3>
+                            <p>Club Leadership</p>
+                        </div>
+                    </div>
+                    <div class="fact-item padd-15">
+                        <i class="icon-badge"></i>
+                        <div class="details">
+                            <h3>3 Certifications</h3>
+                            <p>Online Learning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section" id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="row">
+                    <div class="experience padd-15">
+                        <div class="timeline-box">
+                            <div class="timeline-item">
+                                <i class="icon-briefcase timeline-icon"></i>
+                                <h3 class="timeline-date"> 
+                                    Jan. 2023 - Dec. 2023
+                                    <span class="timeline-location">Teck Resources</span>
+                                </h3>
+                                <h3 class="timeline-title">Process Analytics Co-op</h3>
+                                <p>Leveraged Python Pandas, PySpark, Plotly, and Streamlit dashboards to design and implement KPIs, enabling monitoring of advanced process control performance.</p>
+                            </div>
+                                <div class="timeline-item">
+                                <i class="icon-briefcase timeline-icon"></i>
+                                <h3 class="timeline-date"> 
+                                    Sept. 2021 - Aug. 2022
+                                    <span class="timeline-location">Hussein Lab, UofA</span>
+                                </h3>
+                                <h3 class="timeline-title">Undergraduate Researcher</h3>
+                                <p>Automated motion controls for a 2-axes ball screw stage using Python to improve efficiency of laser-induced breakdown spectroscopy experiments by over 10 times.</p>
+                            </div>
+                                <div class="timeline-item">
+                                <i class="icon-chemistry timeline-icon"></i>
+                                <h3 class="timeline-date"> 
+                                    Sept. 2020 - Apr. 2021
+                                    <span class="timeline-location">Westover Lab, UofA</span>
+                                </h3>
+                                <h3 class="timeline-title">Undergraduate Research Assistant</h3>
+                                <p>Assisted in running statistical shape modelling, force interaction simulations, and computed tomography models for use in biomedical engineering applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline-item">
+                                    <i class="icon-people timeline-icon"></i>
+                                    <h3 class="timeline-date"> 
+                                        Jan. 2024 - Present
+                                        <span class="timeline-location">AI in Medical Systems Society</span>
+                                    </h3>
+                                    <h3 class="timeline-title">Dir. Education</h3>
+                                    <!-- <p></p> -->
+                                </div>
+                                <div class="timeline-item">
+                                    <i class="icon-people timeline-icon"></i>
+                                    <h3 class="timeline-date"> 
+                                        Apr. 2021 - Apr. 2023
+                                        <span class="timeline-location">Women in Science and Engineering</span>
+                                    </h3>
+                                    <h3 class="timeline-title">Dir. High School Outreach, Dir. Design</h3>
+                                    <p>Created graphics, presented at high schools, acted as a role model at SET, served on the mentorship committee, panelled for SRP, and mentored a high school student.</p>
+                                </div>
+                                    <div class="timeline-item">
+                                    <i class="icon-people timeline-icon"></i>
+                                    <h3 class="timeline-date"> 
+                                        Apr. 2021 - Sept. 2022
+                                        <span class="timeline-location">UAlberta Future Creators</span>
+                                    </h3>
+                                    <h3 class="timeline-title">VP Logistics</h3>
+                                    <p>Promoted the mentorship program and engaged with mentees and parents to ensure cohesive communication throughout our organization.</p>
+                                </div>
+                                    <div class="timeline-item">
+                                    <i class="icon-people timeline-icon"></i>
+                                    <h3 class="timeline-date"> 
+                                        Jan. 2021 - Sept. 2022
+                                        <span class="timeline-location">UAlberta Art Club</span>
+                                    </h3>
+                                    <h3 class="timeline-title">Co-President, Design Lead</h3>
+                                    <p>Co-led 20 executives to deliver events and organize marketing to a club of 300+ members.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="row">
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner" id="employeeRetention">
+                            <div class="portfolio-item-thumbnail">
+                                <img class="img" src="assets/img/employeeRetentionCover.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Python, Data, ML</span>
+                            <h3 class="portfolio-item-title">Employee Retention Prediction</h3>
+                            <span class="detail">Google Data Analytics Capstone</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner" id="pcos">
+                            <div class="portfolio-item-thumbnail">
+                                <img class="img" src="assets/img/pcosCover.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Python, Data, ML</span>
+                            <h3 class="portfolio-item-title">Polycystic Ovary Syndrome Risk Prediction</h3>
+                            <span class="detail">AMII ML Technicion Capstone</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner" id="gui">
+                            <div class="portfolio-item-thumbnail">
+                                <img class="img" src="assets/img/libsguiCover.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Python, Automation, GUI</span>
+                            <h3 class="portfolio-item-title">LIBS GUI</h3>
+                            <span class="detail">DRA and NSERC USRA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner" id="portfolioSite">
+                            <div class="portfolio-item-thumbnail">
+                                <img class="img" src="assets/img/portfolioCover.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">HTML/CSS/JavaScript, Front End</span>
+                            <h3 class="portfolio-item-title">Personal Portfolio (This)</h3>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner" id="husseinLab">
+                            <div class="portfolio-item-thumbnail">
+                                <img class="img" src="assets/img/husseinLabCover.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">React, Front End</span>
+                            <h3 class="portfolio-item-title">Lab Website</h3>
+                            <span class="detail">Co-Developed for Hussein Lab</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner" id="jsGame">
+                            <div class="portfolio-item-thumbnail">
+                                <img class="img" src="assets/img/jsGameCover.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Javascript, Game, Work in Progress</span>
+                            <h3 class="portfolio-item-title">Farming Simulation</h3>
+                        </div>
+
+                        <div id="jsGameModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2 class="project-description">JavaScript Farming Sim.</h2>
+                                <p class="project-description">
+                                    Side project I took on. It's currently very limited and only walking works, but I hope to work on more in the coming months! <br>
+                                    <a class="link" href="//ying-sunwan.github.io/javascript-farm-sim/" target="_blank">Feel free to try for yourself</a>, move by WASD.
+                                </p>
+                                <video class="project-video" controls>
+                                    <source src="assets/video/gameDemo.mov" type="video/mp4">
+                                  Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner" id="inventoryApp">
+                            <div class="portfolio-item-thumbnail">
+                                <img class="img" src="assets/img/inventoryAppCover.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Java, Android, FireBase</span>
+                            <h3 class="portfolio-item-title">Inventory App</h3>
+                            <span class="detail">CMPUT 301 Final Group Project</span>
+
+                            <div id="inventoryAppModal" class="modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <h2 class="project-description">Inventory App</h2>
+                                    <p class="project-description">
+                                        <a class="link" href="//github.com/CMPUT301F23T02/StressOverflow/tree/main" target="_blank">Final project for CMPUT 301</a>, 
+                                        created in a group of five. We designed and built a application that could manage a household inventory for 
+                                        insurance purposes. I mainly handled filtering and sorting of items.
+                                    </p>
+                                    <video class="project-video" controls>
+                                        <source src="assets/video/inventoryAppFilterDemo.mp4" type="video/mp4">
+                                      Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item padd-15">
+                        <div class="portfolio-item-inner" id="expenseApp">
+                            <div class="portfolio-item-thumbnail">
+                                <img class="img" src="assets/img/expenseBookCover.png" alt="">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Java, Android</span>
+                            <h3 class="portfolio-item-title">Expense Book App</h3>
+                            <span class="detail">CMPUT 301 Project</span>
+
+                            <div id="expenseAppModal" class="modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <h2 class="project-description">Expense Book App</h2>
+                                    <p class="project-description">
+                                        Individual project for CMPUT 301, in which I designed and built a application that could display expenses
+                                        and sum expenses by month. It is not connected to a database.
+                                    </p>
+                                    <video class="project-video" controls>
+                                        <source src="assets/video/expenseAppDemo.mp4" type="video/mp4">
+                                      Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="script/nav.js"></script>
+    <script src="script/modal.js"></script>
+    <script src="script/spriteActions.js"></script>
+    
+</body>
+</html>

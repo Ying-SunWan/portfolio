@@ -1,0 +1,125 @@
+@media only screen and (max-width:1200px) {
+    .customize-theme .card {
+        width: 50vw;
+    }
+    section {
+        padding-left: 3rem;
+    }
+}
+
+@media only screen and (max-width:968px) {
+    .about-content, .skill-content, .about-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .about-img {
+        flex: 0 0 30%;
+        width: 30%;
+        min-height: 100%;
+        object-fit: cover;
+        display: inline-flex;
+    }
+    .customize-theme .card {
+    width: 58vw;
+    }
+    .rounded {
+        margin-bottom: var(--m-1-5);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    body  {
+        margin: var(--header-height) 0 0 0;
+    }
+    section {
+        padding-left: 0;
+    }
+    .header
+    {
+      width: 100%;
+      background-color: var(--color-light);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+    }
+    .nav {
+        width: 100%;
+        height: var(--header-height);
+        top: 0;
+        padding: 0;
+        background-color: var(--color-dark);
+        z-index: 100;
+    }
+    .nav-list {
+        flex-direction: row;
+        display: flex;
+        top: 15px;
+        margin-left: 0;
+    }
+    .social-list {
+        opacity: 0;
+    }
+    .modal-content {
+        bottom: 0;
+        margin: 0;
+        height: 80%;
+        width: 100%;
+        position: absolute;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }    
+    .container {
+        max-width: 568px;
+    }
+    .contact-data, .contact-form, .education, .experience, .about-content .skills {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .fact-item, .portfolio-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .about-content .about-text {
+        margin-bottom: var(--m-1-5);
+    }
+    .experience {
+        margin-bottom: var(--m-2-5);
+    }
+    .portfolio-item-inner .mask {
+        opacity: 0.7;
+    }
+    .portfolio-item-inner h3, .portfolio-item-inner .detail, .portfolio-item-inner .term {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .portfolio-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .portfolio-item-inner {
+        max-width: 380px;
+        margin: 0 auto;
+    }
+    .timeline {
+        padding: 25px 20px;
+    }
+    .timeline .timeline-item {
+        padding-left: 35px;
+        padding-bottom: 20px;
+    }
+    .customize-theme .card {
+        width: 96vw;
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .fact-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

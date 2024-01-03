@@ -1,0 +1,54 @@
+.education {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.experience {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.timeline-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    padding: 1.9rem 0.95rem;
+    border-radius: var(--border-radius);
+    width: 100%;
+    position: relative;
+}
+
+.timeline-box .timeline-item {
+    position: relative;
+    padding-left: 2.5rem;
+    padding-bottom: 1.9rem;
+}
+.timeline-box .timeline-item:last-child {
+    padding-bottom: 0;
+}
+.timeline-box .timeline-item::before {
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: var(--m-0-5);
+    background-color: var(--color-primary);
+    top: 0;
+}
+.timeline-box .timeline-icon {
+    position: absolute;
+    left: -0;
+    top: 0;
+    font-size: 1rem;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+.timeline-box .timeline-date {
+    font-size: var(--small-font-size);
+    color: var(--color-gray);
+    text-align: left;
+}
+.timeline-box .timeline-location {
+    float: right;
+}

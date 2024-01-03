@@ -1,0 +1,78 @@
+.about-img {
+    flex: 0 0 20%;
+    width: 30%;
+    min-height: 100%;
+    object-fit: cover;
+    display: inline-flex;
+}
+
+#neutralBunny {
+    background-image: url('/assets/img/neutralBunny.png');
+}
+
+.about-content {
+    flex: 0 0 55%;
+    width: 55%;
+}
+
+.skill-content {
+    flex: 0 0 45%;
+    width: 45%;
+}
+
+.rounded {
+    background-color: var(--color-white);
+    padding: var(--card-padding);
+    padding: 0;
+    border-radius: var(--border-radius);
+    display: flex;
+    overflow: hidden;
+}
+
+.about-text p {
+    display: flex;
+    padding: var(--card-padding);
+    color: var(--color-dark);
+    text-align: justify;
+    /* margin-bottom: var(--m-1); */
+}
+
+.col {
+    padding: var(--card-padding);
+    flex: 0 0 48%;
+}
+
+.skill-header {
+    color: var(--color-primary);
+}
+
+.skill-item {
+    list-style: none;
+    /* margin-bottom: 8px; */
+    color: var(--color-dark);
+}
+
+#download-btn {
+    display: flex; 
+    justify-content: center;
+}
+
+#download-btn:hover {
+    cursor: pointer;
+}
+
+.fun-facts {
+    align-items: center;
+}
+
+.fact-item {
+    flex: 0 0 25%;
+    max-width: 25%;
+    margin-top: var(--m-2-5);
+    text-align: center;
+}
+
+.fact-item i {
+    font-size: var(--h2-font-size);
+    color: var(--color-white);
+}
