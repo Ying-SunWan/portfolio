@@ -103,6 +103,9 @@ img {
     height: auto;
     vertical-align: middle;
 }
+iframe {
+    font-size: var(--h3-font-size);
+}
 ul {
     list-style: none;
 }
