@@ -24,11 +24,6 @@ labBtn.onclick = function() {
     window.open("//ying-sunwan.github.io/Hussein_Lab/");
 }
 
-gameBtn = document.getElementById("jsGame")
-gameModal = document.getElementById("jsGameModal")
-closeGame = document.getElementById("gameClose");
-addListener(gameBtn, gameModal)
-
 inventoryAppBtn = document.getElementById("inventoryApp")
 inventoryAppModal = document.getElementById("inventoryAppModal")
 closeInventoryApp = document.getElementById("inventoryAppClose");
@@ -46,8 +41,5 @@ window.onclick = function(event) {
     }
     else if (event.target == expenseAppModal || event.target == closeExpenseApp) {
         expenseAppModal.style.display = "none";
-    }
-    else if (event.target == gameModal || event.target == closeGame) {
-        gameModal.style.display = "none";
     }
 }
